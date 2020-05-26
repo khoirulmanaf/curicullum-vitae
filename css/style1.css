@@ -1,0 +1,221 @@
+
+
+
+/* --BAGIAN BODY-- */
+html, body{
+	height	:100%;
+}
+
+.wrapper{
+	position	:relative;
+	width		:100%;
+	height		:auto;
+}
+.clearfix:before,
+.clearfix:after{
+	content		:"";
+	display		:table;
+}
+.clearfix:after{
+	clear		:both;
+}
+
+/* -- JUDUL & ISI SETIAP BAGIAN/TAG P & H  -- */
+.left_content .data_pribadi>h2,
+.left_content .kontak>h2,
+.left_content .hobi>h2,
+.right_content .pendidikan>h2,
+.right_content .pengalaman_kerja>h2,
+.right_content .keahlian>h2,
+.right_content .kemampuan>h2{
+	font-size:2em;
+}
+
+
+p{
+	font-size :1.4em;
+}
+
+/* --CONTENT KIRI-- */
+.left_content{
+	background	:linear-gradient(#cccccc,#fff);
+	width		:45%;
+	height		:auto;
+	float		:left;
+}
+
+/* --FOTO PROFIL-- */
+.left_content .image{
+	position		:relative;
+	height			:300px;
+	width			:300px;
+	border			:10px solid #575965;
+	border-radius	:50%;
+	margin			:10px auto;
+	display			:flex;
+	align-items		:center;
+	justify-content	:center;
+}
+.left_content .image>img{
+	position		:absolute;
+	height			:95%;
+	width			:95%;
+	border-radius	:50%;
+}
+.left_content .image+h2{
+	text-decoration	:underline;
+	text-align		:center;
+	margin			:20px 0;
+}
+
+/* --H2 DAN GARIS-- */
+.left_content h2{
+	padding-left	:5%;
+}
+.left_content .data_pribadi>img,
+.left_content .kontak>img,
+.left_content .hobi>img{
+	position	:relative;
+	top			:-15px;
+	width		:100%;
+}
+
+/* --isi-- */
+.left_content .isi1{
+	position	:relative;
+	bottom		:20px;
+	background	:;
+	width		:90%;
+	margin		:0 auto;
+	padding		:10px 0 10px 0;
+}
+
+/* --DATA PRIBADI/PRFOIL-- */
+.left_content .data_pribadi{
+	position	:relative;
+	background	:;
+	margin-top	:30px;
+}
+.left_content .data_pribadi .isi1>p{
+	line-height	:5px;
+}
+.left_content .data_pribadi .isi1 span{
+	position	:absolute;
+	left		:200px;
+}
+
+/* --KONTAK-- */
+.left_content .kontak{
+	position	:relative;
+	background	:;
+	margin-top	:-10px;
+}
+.left_content .kontak .telepon,
+.left_content .kontak .whatsapp,
+.left_content .kontak .instagram,
+.left_content .kontak .facebook,
+.left_content .kontak .twitter,
+.left_content .kontak .email,
+.left_content .kontak .website{
+	background	:;
+	display		:flex;
+	align-items	:center;
+	clear		:both;
+}
+.left_content .kontak .telepon>img,
+.left_content .kontak .whatsapp>img,
+.left_content .kontak .instagram>img,
+.left_content .kontak .facebook>img,
+.left_content .kontak .twitter>img,
+.left_content .kontak .email>img,
+.left_content .kontak .website>img{
+	background		:grey;
+	padding			:10px;
+	width			:34px;
+	height			:34px;
+	float 			:left;
+	margin-right	:10px;
+}
+.left_content .kontak p{
+}
+
+/* --hoby-- */
+.left_content .hobi{
+	background	:;
+	margin-top	:5px;
+}
+.left_content .hobi .hobi_img{
+	margin-top		:10px;
+	display			:flex;
+	justify-content	:space-around;
+}
+.left_content .hobi .hobi_img>img{
+	width	:15%;
+	height	:15%;
+}
+
+
+
+
+
+	
+/* --KONTEN KANAN*/
+.right_content{
+	position	:absolute;
+	background	:#dbdbdb;
+	width		:55%;
+	height		:100%;
+	right		:0;
+}
+/* --TITLE-- */
+.right_content .title{
+	background	:blue;
+}
+.right_content .title>h1{
+	text-align	:center;
+}
+
+/* --PENDIDIKAN-- */
+.right_content .pendidikan{
+	background	:yellow;
+	margin-top	:50px;
+}
+.right_content .pendidikan>h2{
+	margin-bottom:-5px;
+}
+.right_content .pendidikan>p{
+	line-height	:10px;
+	text-indent	:15px;
+}
+
+/* --PENGALAMAN KERJA-- */
+.right_content .pengalaman_kerja{
+	background	:green;
+	margin-top	:50px;	
+}
+.right_content .pengalaman_kerja>h2{
+	margin-bottom	:-10px;
+}
+
+/* --KEAHLIAN-- */
+.right_content .keahlian{
+	background	:red;
+	margin-top	:50px;
+}
+.right_content .keahlian>h2{
+	margin-bottom:20px;
+}
+
+/* --KEMAMPUAN-- */
+.right_content .kemampuan{
+	background	:orange;
+	margin-top	:50px;
+}
+
+
+
+
+
+
+
+/*--END--*/
