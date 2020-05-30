@@ -20,7 +20,7 @@ html, body{
 	clear		:both;
 }
 
-/* -- JUDUL & ISI SETIAP BAGIAN/TAG P & H  -- */
+/* -- FONT SIZE TAG P & H  -- */
 .left_content .data_pribadi>h2,
 .left_content .kontak>h2,
 .left_content .hobi>h2,
@@ -167,9 +167,19 @@ p{
 	height		:100%;
 	right		:0;
 }
+
+/* -- TAG P & H -- */
+.right_content .pendidikan>h2,
+.right_content .pengalaman_kerja>h2,
+.right_content .keahlian>h2,
+.right_content .kemampuan>h2{
+	text-indent	:10px;
+}
+
 /* --TITLE-- */
 .right_content .title{
-	background	:blue;
+	background	:;
+	margin-top	:50px;
 }
 .right_content .title>h1{
 	text-align	:center;
@@ -177,7 +187,7 @@ p{
 
 /* --PENDIDIKAN-- */
 .right_content .pendidikan{
-	background	:yellow;
+	background	:;
 	margin-top	:50px;
 }
 .right_content .pendidikan>h2{
@@ -190,29 +200,119 @@ p{
 
 /* --PENGALAMAN KERJA-- */
 .right_content .pengalaman_kerja{
-	background	:green;
-	margin-top	:50px;	
+	background	:;
+	margin-top	:50px;
 }
 .right_content .pengalaman_kerja>h2{
 	margin-bottom	:-10px;
 }
+.right_content .pengalaman_kerja>p{
+	margin:20px 20px 0 20px;
+}
 
 /* --KEAHLIAN-- */
 .right_content .keahlian{
-	background	:red;
+	background	:;
 	margin-top	:50px;
 }
 .right_content .keahlian>h2{
-	margin-bottom:20px;
+	margin-bottom	:20px;
 }
+
+.isi2{
+	position	:relative;
+	background	:;
+}
+.isi2 .photoshop,
+.isi2 .html5,
+.isi2 .css3,
+.isi2 .javascript{
+	position	:relative;
+	background	:;
+	width		:;
+	height		:50px;
+	margin		:5px 20px 0 25px;
+}
+.isi2 .photoshop>img,
+.isi2 .html5>img,
+.isi2 .css3>img,
+.isi2 .javascript>img{
+	float	:left;
+}
+.isi2 .photoshop .dasar,
+.isi2 .html5 .dasar,
+.isi2 .css3 .dasar,
+.isi2 .javascript .dasar{
+	width		:200px;
+    height		:15px;
+    background	:;
+    border		:2px solid black;
+    transform	:translate(75px,80%);
+}
+.isi2 .photoshop .dasar>.atas{
+	width			:80px;
+	height			:15px;
+	background		:black;
+}
+
+.isi2 .html5 .dasar>.atas{
+	width			:120px;
+	height			:15px;
+	background		:black;
+}
+.isi2 .css3 .dasar>.atas{
+	width			:120px;
+	height			:15px;
+	background		:black;
+}
+.isi2 .javascript .dasar>.atas{
+	width			:30px;
+	height			:15px;
+	background		:black;
+}
+
+
 
 /* --KEMAMPUAN-- */
 .right_content .kemampuan{
-	background	:orange;
+	background	:;
 	margin-top	:50px;
 }
-
-
+.right_content .kemampuan>h2{
+	margin-bottom	:20px;
+}
+.isi2 .indonesia{
+	position	:relative;
+	background	:;
+	width		:;
+	height		:75px;
+	margin		:-10px 20px 0 25px;
+}
+.isi2 .inggris{
+	position	:relative;
+	background	:;
+	width		:;
+	height		:75px;
+	margin		:-40px 20px 0 25px;
+}
+.isi2 .indonesia .dasar,
+.isi2 .inggris .dasar{
+	width		:200px;
+    height		:15px;
+    background	:;
+    border		:2px solid black;
+    transform	:translate(20px,-20px);
+}
+.isi2 .indonesia .dasar>.atas{
+	width			:160px;
+	height			:15px;
+	background		:black;
+}
+.isi2 .inggris .dasar>.atas{
+	width			:80px;
+	height			:15px;
+	background		:black;
+}
 
 
 
